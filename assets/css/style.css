@@ -769,6 +769,6 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
 /* iPhone SE (2020 e 2022) - largura de 375px */
 @media (max-width: 375px) {
     #produtos>p {
-        font-size: 13px !important;
+        display: none;
     }
 }
