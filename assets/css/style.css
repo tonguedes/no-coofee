@@ -22,7 +22,7 @@ secao hero */
 }
 
 #hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>h2 {
-    font-size: 38px;
+    font-size: 48px;
 }
 
 .highlight {
@@ -38,10 +38,14 @@ secao hero */
     font-size: 32px;
 }
 
+
+
 #hero>div>div>div.col-md-4>div>h4 {
     color: #000;
     font-size: 25px;
     font-weight: bold;
+    margin-top: 8%;
+
 }
 
 #hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>div>div.box.me-2>img {
@@ -50,11 +54,13 @@ secao hero */
 
 #hero>div>div>div.col-md-4>div {
     border-radius: 50px !important;
+    height: 90%;
+    width: 500px;
 }
 
 
 #hero>div>div>div.col-md-4>div>form>button {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 
@@ -65,6 +71,7 @@ secao hero */
 /* secão 2 */
 #nosso-mercado>div>h1 {
     font-size: 60px;
+
 }
 
 .card {
@@ -76,7 +83,7 @@ secao hero */
     text-align: center;
     border-radius: 38px;
     padding: 15px;
-    margin-top: 20%;
+    margin-top: 14%;
 }
 
 .card img {
@@ -137,7 +144,8 @@ secao hero */
 
 /* seção-3 */
 #servicos>div>h2 {
-    font-size: 60px;
+    font-size: 50px;
+
 
 
 }
@@ -171,23 +179,30 @@ secao hero */
 .card-title-2 {
     font-size: 22px;
     font-weight: bold;
-    margin-left: 60px;
+    margin-left: 23%;
     margin-top: 10%;
     /* Espaçamento do texto para não sobrepor o ícone */
 }
 
+#cards-secao-3>div>h5 {
+    margin-right: 10%;
+}
+
 .card-text-2 {
     font-size: 18px;
-    margin-left: 60px;
+    /* margin-left: 60px; */
     /* Espaçamento do texto para não sobrepor o ícone */
     margin-top: 5px;
+    height: 40% !important;
+
 }
+
 
 
 /* EVOLUÇÃO */
 #evolucao {
     background-image: url(../images/background-3.jpg);
-    height: 100vh;
+    height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid gray;
@@ -195,11 +210,12 @@ secao hero */
 
 #evolucao>div>h2 {
     font-size: 65px;
-    margin-top: 10%;
+
 }
 
 #evolucao>div>p.text-align-start {
     font-size: 22px;
+    font-weight: 400;
 }
 
 #evolucao>div>p:nth-child(3) {
@@ -260,7 +276,9 @@ secao hero */
 /* negocio */
 #negocio>div>div>div:nth-child(1)>h2 {
     font-size: 100px;
+
 }
+
 
 
 
@@ -414,19 +432,25 @@ secao hero */
 .btn-success {
     background-color: #28a745;
     border: none;
-    font-size: 20px;
-
     color: #000
 }
+
+
 
 .btn-success:hover {
     background-color: #218838;
 }
 
 #capitalInvestir {
-    color: gray;
-    font-size: 22px;
+
+    font-size: 18px;
     font-weight: 400;
+}
+
+body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-content-center>p {
+    font-size: 30px;
+    font-weight: bolder;
+    align-items: center;
 }
 
 
@@ -439,6 +463,7 @@ secao hero */
 
     #negocio>div>div>div:nth-child(1)>h2>span {
         font-size: 50px !important;
+        margin-top: -15% !important;
     }
 
 
@@ -464,11 +489,21 @@ secao hero */
         font-size: 0.9rem;
     }
 
+    #hero>div>div>div.col-md-4>div>form>button {
+        font-size: 12px;
+    }
+
 
     #produtos>p {
         font-size: 30px;
         margin-top: 8%;
     }
+
+    #carouselExample>div>div.carousel-item.active>div>div:nth-child(1)>img {
+        height: 80%;
+        margin-top: 12%;
+    }
+
 
     /* efeito-2 */
     .info-container {
@@ -494,13 +529,20 @@ secao hero */
         width: 200px;
         /* Ajuste conforme necessário */
         height: 5px;
-        background-color: #00b3fe;
+        background-color: #00b3fe
+    }
 
+    #card-2 {
+        margin-top: -1%;
+    }
+
+    #card-2>div>h5 {
+        font-size: 15px;
     }
 
     /* formulario */
     #formulario {
-        height: 100%;
+        margin-top: -5%;
     }
 
     #formulario>div>div>div>h5 {
@@ -509,6 +551,16 @@ secao hero */
 
     #formulario>div>div>div>form>button {
         font-size: 10px;
+    }
+
+    #servicos>div.text-center>button {
+        font-size: 15px;
+        margin-top: 12%;
+    }
+
+    #servicos {
+        width: 80%;
+        margin-left: 10%;
     }
 }
 
@@ -545,6 +597,28 @@ secao hero */
 
 
 @media (max-width: 768px) {
+    #hero {
+        background-position: center;
+    }
+
+    #hero>div>div>div.col-md-4>div {
+        height: auto;
+        width: auto;
+    }
+
+    #no-coffe-1 {
+        text-align: center;
+    }
+
+    #hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>h1:nth-child(3) {
+        text-align: center;
+    }
+
+    #hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>div {
+        text-align: center;
+    }
+
+
     h2 {
         font-size: 30px !important;
         text-align: center;
@@ -553,7 +627,24 @@ secao hero */
 
     p {
         text-align: center;
-        font-size: 16px !important;
+        font-size: 17px !important;
+    }
+
+    #evolucao {
+        height: 80%;
+    }
+
+    #produtos>p {
+        font-size: 15px !important;
+    }
+
+    #evolucao>div>h2>span {
+        font-size: 32px !important;
+
+    }
+
+    #evolucao>div>h2> {
+        margin-top: -10 !important;
     }
 
     /* 
@@ -562,9 +653,7 @@ secao hero */
         margin-top: -10%;
     }
 
-    #n-historia>div.container.py-5>h1>span {
-        font-size: 20px;
-    }
+    #n-historia>div.container.py-5>h1>span {}
 
     #n-historia>div.container.py-5>h1 {
         font-size: 20px !important;
@@ -573,6 +662,35 @@ secao hero */
     #logoCarousel {
         margin-top: -25% !important;
     }
+
+    .card-title-2 {
+        font-size: 15px;
+    }
+
+    #evolucao>div>h2>span {
+        font-size: 30px;
+
+    }
+
+    #formulario>div>div>div>form>button {
+        font-size: 10px;
+    }
+
+    .card-3 {
+        width: 90%;
+        padding: 50px;
+        height: 50%;
+
+    }
+
+
+    #n-historia {
+        height: 90%;
+    }
+
+        #n-historia>div.text-center>button{
+            margin-top: -15%;
+        }
 
 }
 
@@ -616,6 +734,13 @@ secao hero */
 /* Ocultar o carrossel em telas maiores */
 @media (min-width: 768px) {
     .carousel-container-3 {
+        display: none;
+    }
+}
+
+/* iPhone SE (2020 e 2022) - largura de 375px */
+@media (max-width: 375px) {
+    #produtos>p {
         display: none;
     }
 }

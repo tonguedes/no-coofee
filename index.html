@@ -9,10 +9,6 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<style>
-
-</style>
-
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -60,35 +56,34 @@
                                 <label for="email" class="form-label">E-mail</label>
                                 <input type="email" class="form-control" id="email" placeholder="Seu Melhor email">
                             </div>
-                            <div class="form-group mb-2">
-                                <label for="cidade">Cidade</label>
-                                <input type="text" class="form-control" id="cidade" placeholder="Cidade">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="cidade">Cidade</label>
+                                    <input type="text" class="form-control" id="cidade" placeholder="Cidade">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="uf">UF</label>
+                                    <select class="form-control" id="uf">
+                                        <option>UF</option>
+                                        <option>SP</option>
+                                        <option>RJ</option>
+                                        <option>MG</option>
+                                        <!-- Outros estados -->
+                                    </select>
+                                </div>
                             </div>
-                            <div class="form-group mb-2">
-                                <label for="cidade">Cidade</label>
-                                <input type="text" class="form-control" id="cidade" placeholder="Telefone WhatsApp">
-                            </div>
-                            <div class="form-group mb-2">
-                                <label for="uf">UF</label>
-                                <select class="form-control" id="uf">
-                                    <option>Selecione</option>
-                                    <option>SP</option>
-                                    <option>RJ</option>
-                                    <option>MG</option>
-                                    <!-- Outros estados -->
-                                </select>
-                            </div>
+
                             <div class="form-group mb-3">
                                 <label for="capitalInvestir">Capital disponível para investir</label>
                                 <select class="form-control" id="capitalInvestir">
-                                    <option>Selecione</option>
+                                    <option>Capital disponível para investir</option><br><br>
                                     <option>Até R$ 10.000</option>
                                     <option>R$ 10.000 - R$ 50.000</option>
                                     <option>Acima de R$ 50.000</option>
                                 </select>
                             </div>
                             <button type="submit" class="btn btn-success btn-block">RECEBA APRESENTAÇÃO VIA
-                                WHATSAPP</button>
+                                WHATSAPP</button><br><br>
                         </form>
                     </div>
                 </div>
@@ -101,7 +96,7 @@
     <!-- Nosso Mercado -->
     <section id="nosso-mercado" class="py-5">
         <div class="container">
-            <h1 class="text-center"><span style="background-color: black; color:#FFF">NO.SSO</span> MERCADO</h>
+            <h1 class="text-center"><span style="background-color: black; color:#FFF;">NO.SSO</span> MERCADO</h>
                 <div class="row normal-container-2">
                     <!-- Card 1 -->
                     <div class="col-md-4">
@@ -217,9 +212,9 @@
                         <img src="assets/images/man-in-suit-and-tie.png" alt="Icone 1" class="card-icon"
                             style="background-color: #FFF; border-radius: 50px;">
                         <div>
-                            <h5 class="card-title-2">MODELO DE NEGÓCIO<br> COMPROVADO</h5><br>
-                            <p class="card-text-2">Operação enxuta, baixo capex e facilidade de implantação.</p>
-                            <br><br><br><br>
+                            <h5 class="card-title-2 text-center">MODELO DE NEGÓCIO<br> COMPROVADO</h5><br>
+                            <p class="card-text-2 text-center ">Operação enxuta, baixo ,<br>capex e facilidade de implantação.</p>
+                            <br><br><br>
                         </div>
                     </div>
                 </div>
@@ -230,11 +225,11 @@
                         <img src="assets/images/Objeto Inteligente de Vetor.png" alt="Icone 1" class="card-icon"
                             style="background-color: #FFF; border-radius: 10px;">
                         <div>
-                            <h5 class="card-title-2">MARCA POTENTE</h5><br>
+                            <h5 class="card-title-2 text-center">MARCA POTENTE</h5><br>
                             <p class="card-tex-2">Investimos e acreditamos na nossa marca como um fator de comunidade e
                                 conexão com nossos clientes, transformando toda
                                 experiência em uma estratégia de aproximação.
-                            </p><br><br><br><br>
+                            </p><br><br>
                         </div>
                     </div>
                 </div>
@@ -245,7 +240,7 @@
                         <img src="assets/images/deal.png" alt="Icone 1" class="card-icon"
                             style="background-color: #FFF; border-radius: 50px;">
                         <div>
-                            <h5 class="card-title-2">PARCEIROS ESTRATÉGICOS</h5><br>
+                            <h5 class="card-title-2 text-center">PARCEIROS ESTRATÉGICOS</h5><br>
                             <p class="card-text-2">Temos parcerias estratégicas que agregam nosso valor em nosso menu,
                                 fazendo com que cada item tenha ainda vantagens
 
@@ -260,7 +255,7 @@
                         <img src="assets/images/cogwheel.png" alt="Icone 1" class="card-icon"
                             style="background-color: #FFF; border-radius: 50px;">
                         <div>
-                            <h5 class="card-title-2">OPERAÇÃO SEM SAZONALIDADE</h5><br>
+                            <h5 class="card-title-2 text-center">OPERAÇÃO SEM SAZONALIDADE</h5><br>
                             <p class="card-text-2">Com a variedade do nosso cardápio conseguimos suprir e atender em
                                 todos os momentos, se mantendo uma operação estável
                                 independente de clima, período ou estação
@@ -382,7 +377,7 @@
     </section>
 
     <!-- historia -->
-    <section id="n-historia" class="bg-light py-5">
+    <section id="n-historia" class="bg-light py-4">
         <div class="container py-5">
             <h1 class="text-center" style="font-size: 60px !important;"><span
                     style="background-color: black; color:#FFF">NO.</span>SSA HISTÓRIA</h1><br><br><br><br>
@@ -578,7 +573,7 @@
             <div class="row">
                 <div class=" col-12 col-md-6  text-white">
                     <h2 class="text-center"><span
-                            style="background-color: #FFF;color:#212529;font-size: 100px; ">NO.SSO</span><br>NEGÓCIO
+                            style="background-color: #FFF;color:#212529;font-size: 100px; margin-top: -5%; ">NO.SSO</span><br>NEGÓCIO
                     </h2>
 
                     <div class=" text-container">
@@ -790,24 +785,25 @@
 
                 <!-- Bloco 1: Logo -->
                 <div class="col-md-3 row justify-content-center">
-                    <img src="ASSETS/images/banner/logo_branca-removebg-preview.png" alt="Logo HPM" class="img-fluid"
-                        style="width: 300px !important; height: 160px !important;">
+                    <img src="ASSETS/images/logos/Camada 4.jpg" alt="Logo HPM" class="img-fluid"
+                        style="width: 200px !important; height: 45px !important;">
+                    <p class="text-center">NO.COFFEE</p>
 
                 </div>
 
                 <!-- Bloco 2: Informações -->
                 <div class="col-md-3 mb-4 mb-md-0">
-                    <h5>Endereço</h5>
-                    <p class="mb-1">Rua Prefeito Alfredo Luiz Batista 444 - São Sebastião da Amoreira
-                        - PR</p>
+                    <h5>informações</h5>
+                    <p class="mb-1">CNPJ:23.822.259/001-13<br>Razão Social:SUPER MARCAS<BR>FRANSHISING LTDA</p>
+
                 </div>
 
                 <!-- Bloco 3: Consultor -->
                 <div class="col-md-3 mb-4 mb-md-0">
-                    <h5 style="font-size: 22px;">Nosso consultor vai te ligar!</h5>
-                    <p class="mb-3">Ligaremos do DDD 17</p>
+                    <h5 style="font-size: 18px;">Nosso consultor<br> vai te ligar!</h5>
+                    <p class="mb-3">vamos te ligar do <b> DDD 17.</b> Fique<br>atento nas próximas horas</p>
                     <button class="btn  text-black btn-smaller"
-                        style="border-radius: 20px; background-color: #00f65c; color:#FFF; font-size: 12px;"
+                        style="border-radius: 20px; background-color: #00f65c; color:#FFF; font-size: 14px; font-weight: bolder;"
                         data-bs-toggle="modal" data-bs-target="#formModal"><i class="bi bi-headphones "></i>CONSULTOR
                         ON-LINE</button>
                 </div>
@@ -827,8 +823,8 @@
                 <p> NO.Coffee © 2025 | Geração de Leads Qualificados <i class="fa-solid fa-heart"></i>
                     <a href="https://perfomax.digital" target="_blank" rel="noopener"
                         aria-label="Acessar o site do Perfomax">
-                        <img src="./assets/images/perfomax__logo-vetorizada__black.png" alt="Logotipo do Perfomax"
-                            loading="lazy" width="100" height="auto"> </a>.
+                        <img src="./assets/images/logos/Logo Perfomax.png" alt="Logotipo do Perfomax" loading="lazy"
+                            width="150" height="auto"> </a>.
                 </p>
             </div>
         </div>
