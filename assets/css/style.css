@@ -64,6 +64,8 @@ secao hero */
 }
 
 
+
+
 #nosso-mercado {
     border: 1px solid gray;
 }
@@ -151,6 +153,13 @@ secao hero */
 }
 
 
+#n-historia>div.text-center>button{
+    margin-top: 1%;
+}
+
+#evolucao>div.text-center>button{
+    margin-top: -2%;
+}
 
 #cards-secao-3 {
     color: #000;
@@ -227,6 +236,7 @@ secao hero */
     margin-top: 2%;
     font-size: 18px;
 }
+
 
 /* NOSSA HISTÓRIA */
 
@@ -328,9 +338,10 @@ secao hero */
 .info-item {
     font-size: 2.5em;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     position: relative;
 }
+
 
 .info-item span {
     font-size: 0.7em;
@@ -363,7 +374,7 @@ secao hero */
     text-align: center;
     border-radius: 38px;
     padding: 15px;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 .card img {
@@ -462,9 +473,13 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
     }
 
     #negocio>div>div>div:nth-child(1)>h2>span {
-        font-size: 50px !important;
-        margin-top: -15% !important;
+        font-size: 45px !important;
+
     }
+
+        #carouselExampleIndicators>div>div:nth-child(3)>div>div>div>p{
+            font-size: 25px;
+        }
 
 
 
@@ -515,7 +530,7 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
     .info-item {
         font-size: 1.50em;
         font-weight: bold;
-        margin-bottom: 30px;
+        margin-bottom: 5px;
         position: relative;
     }
 
@@ -540,9 +555,26 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
         font-size: 15px;
     }
 
+
+        .card-3 {
+            background-color: #FFF;
+            border-radius: 30px;
+            max-width: 400px;
+            width: 50%;
+            /* Reduzi para dar mais margem */
+            padding:0 70px;
+            /* Aumentei o espaço interno */
+            margin: 0 ;
+            /* Margem lateral maior */
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+            margin-top: -1%;
+            
+        }
+
     /* formulario */
     #formulario {
-        margin-top: -5%;
+        margin-top: -6%;
+        height: 99%;
     }
 
     #formulario>div>div>div>h5 {
@@ -580,17 +612,11 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
     }
 
     .carousel-item img {
-        max-width: 90%;
+        max-width: 88%;
 
         /* Ajusta tamanho das imagens */
     }
 }
-
-
-
-
-
-
 
 
 /* efeitos carrosel */
@@ -653,7 +679,9 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
         margin-top: -10%;
     }
 
-    #n-historia>div.container.py-5>h1>span {}
+   #negocio>div>div>div:nth-child(1)>h2{
+    margin-top: -1%;
+   }
 
     #n-historia>div.container.py-5>h1 {
         font-size: 20px !important;
@@ -741,6 +769,6 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
 /* iPhone SE (2020 e 2022) - largura de 375px */
 @media (max-width: 375px) {
     #produtos>p {
-        display: none;
+        font-size: 13px !important;
     }
 }
