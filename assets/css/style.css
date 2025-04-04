@@ -22,9 +22,38 @@ secao hero */
 
 }
 
+#nosso-mercado>div>h1>div.text-center>button{
+    border-radius: 10px;
+}
+
+#hero>div>div>div.col-md-4>div>form>button{
+    border-radius: 10px;
+}
+
 #hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>h2 {
     font-size: 48px;
 }
+
+#servicos>div.text-center>button{
+    border-radius: 10px;
+}
+
+#evolucao>div.text-center>button{
+    border-radius: 10px;
+}
+
+#produtos>div.text-center>button{
+    border-radius: 10px;
+}
+
+#n-historia>div.text-center>button{
+    border-radius: 10px;
+}
+
+#card-2>div>div>button{
+    border-radius: 10px;
+}
+    
 
 .highlight {
     background-color: #00b3fe;
@@ -201,14 +230,6 @@ secao hero */
     /* Espaçamento do texto para não sobrepor o ícone */
 }
 
-.carousel-inner img {
-    width: 90%;
-    /* Ajuste conforme necessário */
-    height: 95%;
-    margin-top: 1%;
-    margin-left: 5%;
-    /* Mantém a proporção e evita deformação */
-}
 
 
 .card-text-2 {
@@ -294,9 +315,10 @@ secao hero */
 }
 
 #produtos>p {
-    font-size: 37px;
+    font-size: 40px;
     font-weight: 700;
     margin-top: 2%;
+    text-align: initial;
 }
 
 /* negocio */
@@ -419,7 +441,7 @@ secao hero */
 #card-2>div>p:nth-child(2) {
     font-size: 26px;
     font-weight: 700;
-    margin-left: 2%;
+
 }
 
 #card-2>div>p:nth-child(3) {
@@ -489,7 +511,8 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
     }
 
     #negocio>div>div>div:nth-child(1)>h2>span {
-        font-size: 35px !important;
+        font-size: 33px !important;
+
 
     }
 
@@ -679,7 +702,10 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
     }
 
     #produtos>p {
-        font-size: 15px !important;
+        font-size: 16px !important;
+        max-width: 500px;
+        max-height: 100px;
+
     }
 
     #evolucao>div>h2>span {
@@ -703,7 +729,7 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
     }
 
     #n-historia>div.container.py-5>h1 {
-        font-size: 20px !important;
+        font-size: 30px !important;
     }
 
     #logoCarousel {
@@ -775,12 +801,56 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
         text-align: center;
     }
 
-    .carousel-inner img {
-       
-        margin-top: 2%;
+
+
+    #c-produto-1,
+    #c-produto-2,
+    #c-produto-3 {
+        width: 90%;
+        /* Ajuste conforme necessário */
+        height: 95%;
+        margin-top: 3%;
         margin-left: 5%;
         /* Mantém a proporção e evita deformação */
     }
+
+    #negocio>div>div>div:nth-child(1)>h2 {
+      
+    }
+
+
+    .card-body {
+        text-align: center;
+    }
+
+    .card-body p,
+    .card-body h5 {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+
+
+    #card-2>div>h5 {
+        font-size: 25px !important;
+
+
+    }
+
+    #card-2>div>p:nth-child(2)>span {
+        text-align: center;
+    }
+
+    #card-2>div>p.text-align-start>span {
+        text-align: center;
+    }
+
+    #card-2>div>p.text-align-start {
+        text-align: center;
+    }
+
+
 
 }
 

@@ -42,13 +42,36 @@
     #cards-secao-3>div>p {
         font-size: 15PX;
     }
+
+
+    .navbar {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .navbar .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar img {
+        max-width: 200px;
+        /* Ajuste conforme necessário */
+        display: block;
+        margin: auto;
+    }
+
+    #hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>div {
+        margin-left: 3%;
+    }
 </style>
 
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <img src="assets/images/NO.COFFEE copiar.png" alt="">
+            <img src="assets/images/logos/no500.png" alt="" height="150" width="150">
 
             <div class="collapse navbar-collapse" id="navbarNav">
 
@@ -60,21 +83,20 @@
             <div class="row ">
                 <!-- Coluna com título e texto -->
                 <div class="col-md-8 d-flex flex-column justify-content-center text-start">
-                    <h2>Fature até <span class="highlight">R$ 1 milhão</span><br>todos os anos com a <br>
+                    <h2>Fature até <span class="highlight">R$ 1 milhão/ano</span><br>com sua própria FRANQUIA <br>DE CAFETERIA E ALIMENTAÇÃO SAUDÁVEL.
 
-                    </h2>
-                    <h1 id="no-coffe-1">NO.COFFEE</h1>
-                    <h1>Seja um franqueado</h1>
+                    </h2><BR><BR>
+                  
+                    
                     <div class=" d-flex mt-3">
                         <div class="box me-2">
                             <img class="text-white" style="background-color: #00b3fe;"
                                 src="assets/images/iconmonstr-check-mark-multiple-lined-240.png" width="30px"
-                                height="30px" alt="Check">Seja um franqueado
+                                height="30px" alt="Check"> Invista a partir de R$ 150 mil
                         </div>
                         <div class="box">
                             <img src="assets/images/iconmonstr-check-mark-multiple-lined-240.png"
-                                style="background-color: #00b3fe;" width="30px" height="30px" alt="Check"> Seja um
-                            franqueado
+                                style="background-color: #00b3fe;" width="30px" height="30px" alt="Check"> 15 a 20% de lucratividade
                         </div>
                     </div>
                 </div>
@@ -256,7 +278,7 @@
                             <!-- Card 1 -->
                             <div class="col-md-4">
                                 <div class="card">
-                                    <img src="/assets/images/Feed-No.Coffee-11.jpg" alt="Imagem 1">
+                                    <img src="/assets/images/Feed-No.Coffee-11.jpg" alt="Imagem 1" height="300">
                                     <div class="card-body">
                                         <h5 class="card-title">R$ 51 Bilhões</h5>
                                         <p class="card-text"> Faturamento</p>
@@ -270,7 +292,7 @@
                             <!-- Card 2 -->
                             <div class="col-md-4">
                                 <div class="card">
-                                    <img src="assets/images/No.Coffee-13.jpg" alt="Imagem 2">
+                                    <img src="assets/images/No.Coffee-13.jpg" alt="Imagem 2" height="300">
                                     <div class="card-body">
 
                                         <h5 class="card-title">R$ 27%</h5>
@@ -285,7 +307,7 @@
                             <div class="col-md-4">
                                 <div class="card">
 
-                                    <img src="assets/images/IMG_5301 vers 2.jpg" alt="Imagem 3" height="322">
+                                    <img src="assets/images/IMG_5301 vers 2.jpg" alt="Imagem 3" height="300">
                                     <div class="card-body">
 
                                         <h5 class="card-title">R$ 12%</h5>
@@ -307,8 +329,7 @@
                 </div>
                 <div class="text-center">
                     <button type="submit" class="btn btn-success " style="margin-top: 3%;" data-bs-toggle="modal"
-                        data-bs-target="#meuModal">PEÇA
-                        SUA COTAÇÃO ONLINE COM UM REPRESENTANTE
+                        data-bs-target="#meuModal">AVANÇAR COM MINHA UNIDADE
                     </button>
                 </div>
         </div>
@@ -454,21 +475,19 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"  style="background-color: #212529;"></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" style="background-color: #212529;"></span>
                 </button>
             </div>
 
         </div>
         <div class="text-center">
-            <button type="submit" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#meuModal">RECEBA
-                APRESENTAÇÃO VIA
-                WHATSAPP</button>
+            <button type="submit" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#meuModal">
+                RESERVAR MINHA ÁREA
+                </button>
         </div>
 
     </section>
@@ -490,9 +509,8 @@
             </p><br>
         </div>
         <div class="text-center">
-            <button type="submit" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#meuModal">RECEBA
-                APRESENTAÇÃO VIA
-                WHATSAPP</button>
+            <button type="submit" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#meuModal">SEJA UM FRANQUEADO
+                </button>
         </div>
     </section>
 
@@ -632,7 +650,7 @@
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"
                 data-bs-wrap="true">
 
-                <div class="carousel-inner">
+                <div class="carousel-inner carousel-produto" id="">
                     <div class="carousel-item active">
                         <div class="row justify-content-center normal-container">
                             <div class="col-12 col-md-4">
@@ -660,12 +678,12 @@
         </div>
 
         <!-- Carrossel para mobile -->
-        <div id="carouselExampleIndicators" class="carousel slide carousel-container" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-container " data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-4">
-                            <img src="assets/images/Camada 3.png" alt="Imagem 1">
+                            <img src="assets/images/Camada 3.png" alt="Imagem 1" id="c-produto-1">
                         </div>
 
 
@@ -674,7 +692,7 @@
                 <div class="carousel-item">
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-4">
-                            <img src="assets/images/Camada 1.png" alt="Imagem 1">
+                            <img src="assets/images/Camada 1.png" alt="Imagem 1" id="c-produto-2">
                         </div>
 
 
@@ -683,7 +701,7 @@
                 <div class="carousel-item">
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-4">
-                            <img src="assets/images/Camada 2.png" alt="Imagem 1">
+                            <img src="assets/images/Camada 2.png" alt="Imagem 1" id="c-produto-3">
                         </div>
 
 
@@ -773,13 +791,15 @@
                     <div class="col-md-4">
                         <div class="card" id="card-2">
                             <img src="/assets/images/FOTO01_BG7.png" alt="Imagem 1">
-                            <div class="card-body">
+                            <div class="card-body ">
                                 <h5>LOJA <span style="color: #00b3fe; font-weight: bolder;">QUIOSQUE</span></h5>
-                                <p> valor do investimento:<br><span class="row align-items-start"
-                                        style="margin-left:11%;font-weight:300 !important">R$139,000</span></p>
-                                <p class="text-align-start"> <span style="font-weight: 900;">ROI</span> 12 meses</p>
-                                <p>Faturamento bruto:<br><span class="row align-items-start"
-                                        style="margin-left:15%;font-weight:300 !important">R$60,000</span></p>
+                                <p> valor do investimento:<br>
+                                    <span class="row " style="
+                                        font-weight:300 !important ; margin-left: 5%;">R$139,000</span>
+                                </p>
+                                <p style="margin-right: 39%;"> <span style="font-weight: 900; ">ROI</span> 12 meses</p>
+                                <p style="margin-right: 10%;">Faturamento bruto:<br><span class="row align-items-start"
+                                        style="margin-left:8%;font-weight:300 !important">R$60,000</span></p>
                                 <div class="text-center">
                                     <button type="submit" class="btn btn-success ">RECEBA
                                         APRESENTAÇÃO VIA
@@ -797,10 +817,11 @@
                             <div class="card-body">
                                 <h5>LOJA <span style="color: #00b3fe; font-weight: bolder;">CONTAINER</span></h5>
                                 <p> valor do investimento:<br><span class="row align-items-start"
-                                        style="margin-left:11%;font-weight:300 !important">R$139,000</span></p>
-                                <p class="text-align-start"> <span style="font-weight: 900;">ROI</span> 12 meses</p>
-                                <p>Faturamento bruto:<br><span class="row align-items-start"
-                                        style="margin-left:15%;font-weight:300 !important">R$60,000</span></p>
+                                        style="margin-left:6%;font-weight:300 !important">R$139,000</span></p>
+                                <p class="text-align-start" style="margin-right:39%"> <span
+                                        style="font-weight: 900;">ROI</span> 12 meses</p>
+                                <p style="margin-right:11%">Faturamento bruto:<br><span class="row align-items-start"
+                                        style="margin-left:8%;font-weight:300 !important">R$60,000</span></p>
 
                                 <div class="text-center">
                                     <button type="submit" class="btn btn-success " data-bs-toggle="modal"
@@ -816,13 +837,14 @@
                         <div class="card" id="card-2">
 
                             <img src="assets/images/FOTO03_BG7.png" alt="Imagem 3">
-                            <div class="card-body">
+                            <div class="card-body text-center">
 
                                 <h5>LOJA <span style="color: #00b3fe; font-weight: bolder;">RUA</span></h5>
                                 <p> valor do investimento:<br><span class="row align-items-start"
-                                        style="margin-left:11%;font-weight:300 !important">R$139,000</span></p>
-                                <p class="text-align-start"> <span style="font-weight: 900;">ROI</span> 12 meses</p>
-                                <p>Faturamento bruto:<br><span class="row align-items-start"
+                                        style="margin-left:6%;font-weight:300 !important">R$139,000</span></p>
+                                <p style="margin-right:38%" class="text-align-start"> <span
+                                        style="font-weight: 900;">ROI</span> 12 meses</p>
+                                <p style="margin-left:-8%">Faturamento bruto:<br><span class="row align-items-start"
                                         style="margin-left:15%;font-weight:300 !important">R$60,000</span></p>
 
                                 <div class="text-center">
@@ -843,11 +865,9 @@
                                 <img src="/assets/images/FOTO01_BG7.png" alt="Imagem 1">
                                 <div class="card-body">
                                     <h5>LOJA <span style="color: #00b3fe; font-weight: bolder;">QUIOSQUE</span></h5>
-                                    <p> valor do investimento:<br><span class="row align-items-start"
-                                            style="margin-left:11%;font-weight:300 !important">R$139,000</span></p>
-                                    <p class="text-align-start"> <span style="font-weight: 900;">ROI</span> 12 meses</p>
-                                    <p>Faturamento bruto:<br><span class="row align-items-start"
-                                            style="margin-left:15%;font-weight:300 !important">R$60,000</span></p>
+                                    <p>Valor do investimento:<br><span style="font-weight: 300;">R$139,000</span></p>
+                                    <span style="font-weight: 900; margin-left: 26%;">ROI</span>: 12 meses
+                                    <p>Faturamento bruto:<br><span style="font-weight: 300;">R$60,000</span></p>
 
                                 </div>
                             </div>
@@ -857,11 +877,9 @@
                                 <img src="assets/images/FOTO02_BG7.png" alt="Imagem 2">
                                 <div class="card-body">
                                     <h5>LOJA <span style="color: #00b3fe; font-weight: bolder;">CONTAINER</span></h5>
-                                    <p> valor do investimento:<br><span class="row align-items-start"
-                                            style="margin-left:11%;font-weight:300 !important">R$139,000</span></p>
-                                    <p class="text-align-start"> <span style="font-weight: 900;">ROI</span> 12 meses</p>
-                                    <p>Faturamento bruto:<br><span class="row align-items-start"
-                                            style="margin-left:15%;font-weight:300 !important">R$60,000</span></p>
+                                    <p>Valor do investimento:<br><span style="font-weight: 300;">R$139,000</span></p>
+                                    <p  class="text-center"><span style="font-weight: 900;">ROI</span>: 12 meses</p>
+                                    <p>Faturamento bruto:<br><span style="font-weight: 300;">R$60,000</span></p>
                                 </div>
                             </div>
                         </div>
@@ -870,13 +888,10 @@
 
                                 <img src="assets/images/FOTO03_BG7.png" alt="Imagem 3">
                                 <div class="card-body">
-
                                     <h5>LOJA <span style="color: #00b3fe; font-weight: bolder;">RUA</span></h5>
-                                    <p> valor do investimento:<br><span class="row align-items-start"
-                                            style="margin-left:11%;font-weight:300 !important">R$139,000</span></p>
-                                    <p class="text-align-start"> <span style="font-weight: 900;">ROI</span> 12 meses</p>
-                                    <p>Faturamento bruto:<br><span class="row align-items-start"
-                                            style="margin-left:15%;font-weight:300 !important">R$60,000</span></p>
+                                    <p>Valor do investimento:<br><span style="font-weight: 300;">R$139,000</span></p>
+                                    <p  class="text-center"><span style="font-weight: 900;">ROI</span>: 12 meses</p>
+                                    <p>Faturamento bruto:<br><span style="font-weight: 300;">R$60,000</span></p>
                                 </div>
                             </div>
                         </div>
