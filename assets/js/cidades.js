@@ -46,8 +46,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-/* document.addEventListener("DOMContentLoaded", function () {
-    let forms = document.querySelectorAll(".contact-form-2, .contact-form-3");
+ document.addEventListener("DOMContentLoaded", function () {
+    let forms = document.querySelectorAll(".contact-form-2");
 
     forms.forEach(form => {
         let estadoSelect = form.querySelector(".estado"),
@@ -89,4 +89,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
         carregarEstados();
     });
-}); */
+}); 

@@ -18,6 +18,7 @@ secao hero */
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 
 }
 
@@ -33,6 +34,12 @@ secao hero */
 
     font-size: 70px !important;
 }
+
+#n-historia>div.container.py-5>h1 {
+    font-size: 60px;
+}
+
+
 
 #hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>h3 {
     font-size: 32px;
@@ -153,12 +160,12 @@ secao hero */
 }
 
 
-#n-historia>div.text-center>button{
+#n-historia>div.text-center>button {
     margin-top: 1%;
 }
 
-#evolucao>div.text-center>button{
-    margin-top: -2%;
+#evolucao>div.text-center>button {
+    margin-top: -3%;
 }
 
 #cards-secao-3 {
@@ -181,20 +188,21 @@ secao hero */
     /* Posiciona o ícone fora da borda do card */
     top: -37px;
     /* Ajusta a posição vertical do ícone */
-    left: 120px;
+    left: 37%;
     /* Ajusta a posição horizontal do ícone */
+    text-align: center;
 }
 
 .card-title-2 {
     font-size: 22px;
     font-weight: bold;
-    margin-left: 23%;
+ 
     margin-top: 10%;
     /* Espaçamento do texto para não sobrepor o ícone */
 }
 
 #cards-secao-3>div>h5 {
-    margin-right: 10%;
+   
 }
 
 .card-text-2 {
@@ -473,13 +481,13 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
     }
 
     #negocio>div>div>div:nth-child(1)>h2>span {
-        font-size: 45px !important;
+        font-size: 35px !important;
 
     }
 
-        #carouselExampleIndicators>div>div:nth-child(3)>div>div>div>p{
-            font-size: 25px;
-        }
+    #carouselExampleIndicators>div>div:nth-child(3)>div>div>div>p {
+        font-size: 25px;
+    }
 
 
 
@@ -505,7 +513,9 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
     }
 
     #hero>div>div>div.col-md-4>div>form>button {
-        font-size: 12px;
+        font-size: 15px;
+        margin-top: 5%;
+
     }
 
 
@@ -556,20 +566,20 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
     }
 
 
-        .card-3 {
-            background-color: #FFF;
-            border-radius: 30px;
-            max-width: 400px;
-            width: 50%;
-            /* Reduzi para dar mais margem */
-            padding:0 70px;
-            /* Aumentei o espaço interno */
-            margin: 0 ;
-            /* Margem lateral maior */
-            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-            margin-top: -1%;
-            
-        }
+    .card-3 {
+        background-color: #FFF;
+        border-radius: 30px;
+        max-width: 400px;
+        width: 50%;
+        /* Reduzi para dar mais margem */
+        padding: 0 70px;
+        /* Aumentei o espaço interno */
+        margin: 0;
+        /* Margem lateral maior */
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        margin-top: -1%;
+
+    }
 
     /* formulario */
     #formulario {
@@ -624,7 +634,7 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
 
 @media (max-width: 768px) {
     #hero {
-        background-position: center;
+        background-position: right;
     }
 
     #hero>div>div>div.col-md-4>div {
@@ -652,7 +662,7 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
     }
 
     p {
-        text-align: center;
+
         font-size: 17px !important;
     }
 
@@ -677,11 +687,12 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
             secao 3 */
     #n-historia>div.container.py-5>div>div>div:nth-child(2)>p {
         margin-top: -10%;
+        text-align: start !important;
     }
 
-   #negocio>div>div>div:nth-child(1)>h2{
-    margin-top: -1%;
-   }
+    #negocio>div>div>div:nth-child(1)>h2 {
+        margin-top: -1%;
+    }
 
     #n-historia>div.container.py-5>h1 {
         font-size: 20px !important;
@@ -716,9 +727,45 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
         height: 90%;
     }
 
-        #n-historia>div.text-center>button{
-            margin-top: -15%;
-        }
+    #n-historia>div.text-center>button {
+        margin-top: -15%;
+    }
+
+    #nosso-mercado>div>h1 {
+        font-size: 35px;
+    }
+
+    #nosso-mercado>div>h1>div.text-center>button {
+        margin-top: 12% !important;
+    }
+
+    .text-left,
+    .text-right {
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+
+    #produtos>div.text-center>button {
+        margin-top: 8% !important;
+    }
+
+    #carouser-mercado {
+        height: auto;
+    }
+
+    #nosso-mercado>div>h1>div.text-center>button {
+        margin-top: 15% !important;
+    }
+
+    #evolucao>div.container>p:nth-child(3) {
+        margin-top: -5% !important;
+        text-align: center;
+    }
+
+    #evolucao>div>p.text-align-start {
+        text-align: center;
+    }
 
 }
 
@@ -768,7 +815,18 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
 
 /* iPhone SE (2020 e 2022) - largura de 375px */
 @media (max-width: 375px) {
+
     #produtos>p {
         display: none;
+        align-items: center;
     }
+}
+
+
+@media only screen and (max-width: 360px) {
+    #produtos>p {
+        display: block;
+        font-size: 13px !important;
+    }
+
 }
