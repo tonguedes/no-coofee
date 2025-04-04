@@ -196,14 +196,11 @@ secao hero */
 .card-title-2 {
     font-size: 22px;
     font-weight: bold;
- 
+
     margin-top: 10%;
     /* Espaçamento do texto para não sobrepor o ícone */
 }
 
-#cards-secao-3>div>h5 {
-   
-}
 
 .card-text-2 {
     font-size: 18px;
@@ -766,6 +763,15 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
     #evolucao>div>p.text-align-start {
         text-align: center;
     }
+
+        .carousel-inner img {
+            width: 90%;
+            /* Ajuste conforme necessário */
+            height: 100%;
+            margin-top: 10%;
+            margin-left: 5%;
+            /* Mantém a proporção e evita deformação */
+        }
 
 }
 
